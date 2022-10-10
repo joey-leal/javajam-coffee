@@ -1,0 +1,77 @@
+body {
+    /* Enlarges all font */
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    background-color: #FCEBB6;
+}
+
+
+
+#nav{
+	background-color: #E1CDB3;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+}
+#nav a{
+	width: 100%;
+	color: #553c2a;
+	font-weight: medium;
+	text-align: center;
+	padding: 20px 0px 20px 0px;
+	text-decoration: none;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+#nav a:hover{
+	background-color: #FCEBB6;
+}
+
+/*  */
+h1{
+	/* Dark coffee colour font */
+	display: flex;
+	justify-content: center;
+	padding: 30px 0px 30px 0px;
+    color: #553c2a;
+	background-color: #d2b48c;
+	margin-bottom: auto;
+}
+/*  */
+h2, h3 {
+	/* Dark coffee colour font */
+    color: #553c2a;
+    line-height: 200%;
+}
+
+img{
+	width: 100%;
+	display: inline-flex;
+	margin: -60px 0px 0px 0px;
+}
+
+
+/*  */
+p,
+ul,
+dl {
+    /* Dark coffee colour font */
+    color: #553c2a;
+}
+
+
+
+footer {
+    background-color: #d2b48c;
+    font-size: 0.6em;
+    text-align: center;
+}
+
+
+
+#wrapper {
+    width: 90%;
+    background-color: #FEFAEB;
+    margin-right: auto;
+    margin-left: auto;
+}
